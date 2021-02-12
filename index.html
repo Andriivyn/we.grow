@@ -6,16 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="root">
-        <nav class="uk-navbar-container" uk-navbar>
-            <div class="uk-navbar-left">
-                <ul class="uk-navbar-nav">
-                    <li class="uk-inactive"> <a href="#"> we.grow</a> </li>
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="mode:click">
+            <div class="uk-navbar-left uk-margin-large-left">
+
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li> <a href="#" class="uk-text-primary 
+                        uk-text-lowercase uk-text-lead	uk-text-bold"><span class="page-title">we·grow</span></a> </li>
                 </ul>
+                <ul class="uk-navbar-nav uk-hidden@m">
+                    <li>
+                        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li class="active"><a href="#">Pricing</a></li>
+                                <li class="active"><a href="#">Testimonials</a></li>
+                                <li class="active"><a href="#">About As</a></li>
+                                <li class="active"><a href="#">Contact As</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="uk-navbar-center ">
+
+                <ul class="uk-navbar-nav uk-hidden@m">
+                    <li> <a href="#" class="uk-text-primary 
+                        uk-text-lowercase uk-text-lead	uk-text-bold"><span class="page-title">we·grow</span></a> </li>
+                </ul>
+
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li class="uk-active"><a class="uk-text-capitalize" href="#"><span
+                                class="navbar-txt">Home</span></a></li>
+                    <li class=""><a class="uk-text-capitalize" href="#"><span
+                                class="navbar-txt">Pricing</span></a></li>
+                    <li class=""><a class="uk-text-capitalize" href="#"><span
+                                class="navbar-txt">Testimonials</span></a></li>
+                    <li class=""><a class="uk-text-capitalize" href="#"><span class="navbar-txt">About
+                                As</span></a></li>
+                    <li class=""><a class="uk-text-capitalize" href="#"><span class="navbar-txt">Contact
+                                As</span></a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="uk-navbar-left uk-hidden@m">
+               
+            </div> -->
+
+            <div class="uk-navbar-right uk-margin-medium-right">
+                <div class="uk-navbar-item">
+                    <button class="uk-button uk-button-primary login-btn">Log in</button>
+                </div>
             </div>
         </nav>
     </div>
