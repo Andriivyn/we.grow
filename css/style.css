@@ -6,6 +6,12 @@
     font-family: FuturaT;
     src: url(fonts/FuturaTOT-Book.otf);
 }
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(fonts/gilroy-bold.ttf);
+}
+
+
 *{
     font-family:Gilroy-Medium;;
 }
@@ -29,9 +35,153 @@
 .login-btn{
     border-radius: 120px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.main-text-mob{
+    color:black;
+    padding: 0px 15px 0 15px;
+    font-family: Gilroy-Bold;
+    font-size: 36px;
+}
+.dot{
+    color: #2693FF;
+}
+.secondary-text{
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    color: lightgray;
+    line-height: 30px;
+    letter-spacing: 2.5%;
+    padding: 0 15px 0 15px;
+    font-weight: 300;
+}
 
+.btn-prim, .btn-dft{
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 32px;
+    border-radius: 120px;
+    offset:  0px, 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-dft{
+    color:#2693FF;
+    background-color: white;
+}
+.checkmark-icon{
+    width: 19px;
+    height: 18px;
+}
+.dem{
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 32px;
+}
+.inner-chk{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+}
+
+.start-page{
+    background: rgb(255,101,140);
+background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0.27) 100%);
+    /* background-image: linear-gradient(rgba(255, 101, 140, 0.15) 0%, rgba(77, 164, 253, 0.27)  ); */
+}
+
+/* .men-3d{
+    height: 400px;
+}*/
+.inner-wp{
+    position: relative;
+    /* top: 30px; */
+    height: 380px;
+    width: 80%;
+} 
+.man-image{
+    width: 180px;
+}
+.man-wrapper{
+    position: absolute;
+    left: 60px;
+    top:0px;
+}
+.man-main{
+    position: absolute;
+    top:-10px;
+    
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+.elipse{
+    position: relative;
+    top: 60px;
+    z-index: 1;
+    width: 300px;
+    height: 317px;
+    border-radius: 170px;
+    background-color: #E6D9FF;
+    /* margin-top: 30px; */
+    /* top: 30px; */
+}
+
+.circle-wrapper{
+    position: absolute;
+    top: 75px;
+    left: -10px;
+    
+}
+.circle-image{
+    
+    width: 65px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.graphic-wrapper{
+    position: absolute;
+    bottom: 85px;
+    left: 10px;
+}
+.graphic-image{
+    width: 61px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.instagram-wrapper{ 
+    position: absolute;
+    /* width: 40px; */
+    top: 110px;
+    left:215px;
+}
+
+.instagram-image{
+    width: 45px;
+    border-radius: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 
 }
-.menu-btn{
-    /* width: 120px; */
+
+.graphix-wrapper{
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 230px;
+}
+
+.graphix-image{
+    width: 75px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.likes-wrapper{
+    width: 70px;
+    position: absolute;
+    bottom: 111px;
+    left: 260px;
+}
+
+.likes-gif{
+    width: 70px;
 }
