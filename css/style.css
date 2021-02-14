@@ -11,7 +11,10 @@
     src: url(fonts/gilroy-bold.ttf);
 }
 
-
+@font-face{
+    font-family: Gilroy;
+    src: url(fonts/Gilroy-Light.otf);
+}
 *{
     font-family:Gilroy-Medium;;
 }
@@ -82,15 +85,17 @@
     font-size: 18px;
 }
 
-.start-page{
+.start-page-mob{
+    width: 100%;
     background: rgb(255,101,140);
 background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0.27) 100%);
     /* background-image: linear-gradient(rgba(255, 101, 140, 0.15) 0%, rgba(77, 164, 253, 0.27)  ); */
 }
+.start-page-pc{
+    height: 900px;
+background: linear-gradient(120.23deg, rgba(255, 101, 140, 0.15) 13.45%, rgba(77, 164, 253, 0.27) 83.49%);
+}
 
-/* .men-3d{
-    height: 400px;
-}*/
 .inner-wp{
     position: relative;
     /* top: 30px; */
@@ -110,7 +115,7 @@ background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0
     top:-10px;
     
     z-index: 3;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
 .elipse{
@@ -121,8 +126,6 @@ background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0
     height: 317px;
     border-radius: 170px;
     background-color: #E6D9FF;
-    /* margin-top: 30px; */
-    /* top: 30px; */
 }
 
 .circle-wrapper{
@@ -151,9 +154,9 @@ background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0
 
 .instagram-wrapper{ 
     position: absolute;
-    /* width: 40px; */
+    width: 45px;
     top: 110px;
-    left:215px;
+    left: 225px;
 }
 
 .instagram-image{
@@ -184,4 +187,224 @@ background: linear-gradient(180deg, rgba(255,101,140,0.15) 0%, rgba(77,164,253,0
 
 .likes-gif{
     width: 70px;
+}
+
+.main-text-pc{
+    color: #000;
+    font-size: 60px;
+    font-family: Gilroy-Bold;
+    line-height: 70.31px;
+}
+.info-pc{
+    margin-left: 15px;
+    width: 45%;
+
+}
+
+.secondary-text-pc{
+    
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    /* text-align: left; */
+}
+
+.btn-prim-pc, .btn-dft-pc{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 120px;
+    width: 220px;
+    height: 56px;
+    font-size: 20px;
+    font-family:Gilroy-Bold;
+    line-height: 32px;
+    letter-spacing: 2.5%;
+}
+.btn-dft-pc{
+    background-color: white;
+    color: #3190FF;
+    padding: 0;
+
+}
+.dem-pc{
+    font-size: 20px; 
+    font-family:Gilroy-Bold;
+    line-height: 32px;
+     letter-spacing: 2.5%;
+}
+
+.checkmark-icon-pc{
+    /* width: 10%; */
+    height: 20px;
+}
+.inner-chk-pc{
+    font-family: Gilroy-Bold;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.025em;
+    text-align: left;
+
+}
+.ch-btns{
+    height: 170px;
+}
+
+.man-3d-pc{
+    width: 45%;
+    /* height: 100%; */
+}
+
+
+.inner-wp-pc{
+    position: relative;
+    /* top: 30px; */
+    /* height: 380px; */
+    width: 80%;
+} 
+.man-image-pc{
+    width: 300px;
+}
+.man-main-pc{
+    position: absolute;
+    top:-10px;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+.man-wrapper-pc{
+    position: absolute;
+    left: 105px;
+    bottom:-30px;
+}
+
+.elipse-pc{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 518px;
+    height: 537px;
+    border-radius: 370px;
+    background-color: #E6D9FF;
+}
+
+.circle-wrapper-pc{
+    position: absolute;
+    top: 55px;
+    left: -10px;
+    
+}
+.circle-image-pc{
+    width: 95px;
+    border-radius: 14px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+    
+}
+.graphic-wrapper-pc{
+    position: absolute;
+    bottom: 145px;
+    left: 20px;
+}
+.graphic-image-pc{
+    width: 91px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.instagram-wrapper-pc{ 
+    position: absolute;
+    top: 110px;
+    left: 390px;
+    width: 76px;
+}
+
+.instagram-image-pc{
+    width: 76px;
+    border-radius: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+
+.graphix-wrapper-pc{
+    width: 123px;
+    position: absolute;
+    bottom: -10px;
+    left: 370px;
+}
+
+.graphix-image-pc{
+    /* width: 100%; */
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+.likes-wrapper-pc{
+    width: 106px;
+    position: absolute;
+    bottom: 175px;
+    left: 410px;
+}
+
+
+.we-like{
+    padding: 40px 0 40px 0;
+    /* height: 500px; */
+}
+.inner-text-container{
+    /* position: relative; */
+    height: 100%;
+    /* top: 50px; */
+    width: 100%;
+    
+}
+.ttl{
+    font-family: Gilroy-Medium;
+    color:black;
+    font-size: 40px;
+}
+.ttl-pc{
+    font-family: Gilroy-Medium;
+    color:black;
+    font-size: 60px;
+}
+.like-image{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+}
+.like-image-pc{
+    margin-top: 5px;
+    width: 76px;
+    height: 76px;
+}
+.we-like-title{
+
+    height: 100px;
+
+}
+
+.under-like-text{
+    padding: 20px 0 20px 0;
+    width: 60%;
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.025em;
+    
+}
+
+.scroll-down{
+    width: 100%;
+    height: 200px;
+}
+.scroll-text{
+    font-family: Gilroy;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0.2em;
+    text-align: center;
+
 }
